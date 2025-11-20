@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Member - SneakPick</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">👟</span>
+                <h1>SneakPick</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="produk.html">Koleksi</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-outline">Masuk</a>
+                <a href="register.html" class="btn btn-primary">Daftar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="page-header">
+            <h1>Daftar Member BettaSneaks</h1>
+            <p>Bergabunglah dengan komunitas sneakerheads terbesar di Indonesia</p>
+        </div>
+
+        <!-- Form Register Member -->
+        <div class="form-container">
+            <h2 class="form-title">Form Pendaftaran</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="full-name">Nama Lengkap</label>
+                    <input type="text" id="full-name" class="form-control" placeholder="Masukkan nama lengkap" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" placeholder="Masukkan email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Nomor Telepon</label>
+                    <input type="tel" id="phone" class="form-control" placeholder="Masukkan nomor telepon" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-control" placeholder="Masukkan password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Konfirmasi Password</label>
+                    <input type="password" id="confirm-password" class="form-control" placeholder="Konfirmasi password" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Alamat Lengkap</label>
+                    <textarea id="address" class="form-control" placeholder="Masukkan alamat lengkap untuk pengiriman" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="user-type">Tipe Pengguna</label>
+                    <select id="user-type" class="form-control">
+                        <option value="buyer">Pembeli Saja</option>
+                        <option value="seller">Seller/Penjual</option>
+                        <option value="both">Pembeli dan Seller</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="sneaker-interest">Minat Sneakers</label>
+                    <div class="interest-options">
+                        <label><input type="checkbox" name="interest" value="lifestyle"> Lifestyle</label>
+                        <label><input type="checkbox" name="interest" value="basketball"> Basketball</label>
+                        <label><input type="checkbox" name="interest" value="running"> Running</label>
+                        <label><input type="checkbox" name="interest" value="skateboarding"> Skateboarding</label>
+                        <label><input type="checkbox" name="interest" value="limited"> Limited Edition</label>
+                    </div>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">Saya menyetujui Syarat & Ketentuan dan Kebijakan Privasi BettaSneaks</label>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="newsletter">
+                    <label for="newsletter">Saya ingin menerima newsletter tentang release sneakers terbaru dan promo spesial</label>
+                </div>
+                <button type="submit" class="btn-submit">Daftar Sekarang</button>
+            </form>
+            
+            <div class="login-link">
+                <p>Sudah punya akun? <a href="login.html">Masuk di sini</a></p>
+            </div>
+        </div>
+
+        <div class="benefits-section">
+            <h2>Keuntungan Menjadi Member</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>🎁 Diskon Member</h3>
+                    <p>Dapatkan diskon khusus hingga 15% untuk semua produk dan free shipping untuk order pertama</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>⭐ Akses Early Release</h3>
+                    <p>Akses pre-order dan early release untuk sneakers limited edition sebelum dijual ke publik</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>👥 Komunitas Eksklusif</h3>
+                    <p>Bergabung dengan komunitas sneakerheads untuk sharing, trading, dan event eksklusif</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>📊 Dashboard Seller</h3>
+                    <p>Fitur lengkap untuk seller termasuk analytics, inventory management, dan promo tools</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>SneakPick</h3>
+                <p>Marketplace terpercaya untuk koleksi sneakers original dengan berbagai brand ternama dan limited edition.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Link Cepat</h3>
+                <a href="index.html">Beranda</a>
+                <a href="produk.html">Koleksi</a>
+                <a href="tentang.html">Tentang Kami</a>
+                <a href="kontak.html">Kontak</a>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak Kami</h3>
+                <p>Email: info@sneakpick.com</p>
+                <p>Telepon: (021) 1234-5678</p>
+                <p>Alamat: Jl. Sneakers No. 123, Jakarta</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 SneakPick. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

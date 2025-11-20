@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - SneakPick</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">👟</span>
+                <h1>SneakPick</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="produk.html">Koleksi</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html" class="active">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-outline">Masuk</a>
+                <a href="register.html" class="btn btn-primary">Daftar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="page-header">
+            <h1>Hubungi Kami</h1>
+            <p>Kami siap membantu Anda dengan segala pertanyaan tentang sneakers dan transaksi</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Informasi Kontak</h2>
+                <div class="contact-item">
+                    <h3>📍 Alamat</h3>
+                    <p>Jl. Sneakers No. 123<br>Kebayoran Baru, Jakarta Selatan 12120</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📞 Telepon</h3>
+                    <p>(021) 1234-5678</p>
+                </div>
+                <div class="contact-item">
+                    <h3>✉️ Email</h3>
+                    <p>info@sneakpick.com<br>support@sneackpick.com</p>
+                </div>
+                <div class="contact-item">
+                    <h3>🕒 Jam Operasional</h3>
+                    <p>Senin - Jumat: 09:00 - 18:00 WIB<br>Sabtu: 09:00 - 15:00 WIB</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📍 Store Offline</h3>
+                    <p>SneakPick Store<br>Plaza Indonesia, Lantai 3<br>Jakarta Pusat</p>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h2>Kirim Pesan</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="contact-name">Nama Lengkap</label>
+                        <input type="text" id="contact-name" class="form-control" placeholder="Masukkan nama lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" class="form-control" placeholder="Masukkan email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-phone">Nomor Telepon</label>
+                        <input type="tel" id="contact-phone" class="form-control" placeholder="Masukkan nomor telepon">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-subject">Subjek</label>
+                        <select id="contact-subject" class="form-control" required>
+                            <option value="">Pilih subjek</option>
+                            <option value="pertanyaan-produk">Pertanyaan Produk</option>
+                            <option value="bantuan-transaksi">Bantuan Transaksi</option>
+                            <option value="autentikasi">Konsultasi Autentikasi</option>
+                            <option value="kerjasama">Kerjasama Bisnis</option>
+                            <option value="lainnya">Lainnya</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Pesan</label>
+                        <textarea id="contact-message" class="form-control" placeholder="Tulis pesan Anda di sini..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="faq-section">
+            <h2>Pertanyaan Umum</h2>
+            <div class="faq-item">
+                <h3>Bagaimana proses autentikasi sneakers di BettaSneaks?</h3>
+                <p>Setiap sneakers yang dijual melalui platform kami melalui proses autentikasi 3 tahap oleh tim ahli untuk memastikan keaslian 100% sebelum dikirim ke pembeli.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Apakah tersedia garansi untuk produk yang dibeli?</h3>
+                <p>Ya, kami memberikan garansi autentikasi 30 hari dan garansi toko 7 hari untuk produk baru. Untuk produk pre-owned, tersedia garansi sesuai kondisi yang telah disepakati.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Bagaimana cara menjadi seller di BettaSneaks?</h3>
+                <p>Anda dapat mendaftar sebagai seller melalui halaman registrasi, kemudian mengikuti proses verifikasi yang meliputi pemeriksaan identitas dan sample produk.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Apakah pengiriman aman untuk sneakers limited edition?</h3>
+                <p>Ya, kami menggunakan packaging khusus dengan double box, bubble wrap, dan box protector untuk memastikan sneakers sampai dalam kondisi terbaik.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>SneakPick</h3>
+                <p>Marketplace terpercaya untuk koleksi sneakers original dengan berbagai brand ternama dan limited edition.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Link Cepat</h3>
+                <a href="index.html">Beranda</a>
+                <a href="produk.html">Koleksi</a>
+                <a href="tentang.html">Tentang Kami</a>
+                <a href="kontak.html">Kontak</a>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak Kami</h3>
+                <p>Email: info@sneakpick.com</p>
+                <p>Telepon: (021) 1234-5678</p>
+                <p>Alamat: Jl. Sneakers No. 123, Jakarta</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 SneakPick. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

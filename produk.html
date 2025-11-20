@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi Sneakers - SneakPick</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-icon">👟</span>
+                <h1>SneakPick</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="produk.html" class="active">Koleksi</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-outline">Masuk</a>
+                <a href="register.html" class="btn btn-primary">Daftar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="page-header">
+            <h1>Koleksi Sneakers</h1>
+            <p>Temukan berbagai jenis sneakers original dengan harga terbaik dan kualitas terjamin</p>
+        </div>
+
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <div class="filter-group">
+                <label for="brand">Brand:</label>
+                <select id="brand" class="form-control">
+                    <option value="">Semua Brand</option>
+                    <option value="nike">Nike</option>
+                    <option value="adidas">Adidas</option>
+                    <option value="new-balance">New Balance</option>
+                    <option value="converse">Converse</option>
+                    <option value="vans">Vans</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="size">Ukuran:</label>
+                <select id="size" class="form-control">
+                    <option value="">Semua Ukuran</option>
+                    <option value="39">39</option>
+                    <option value="40">40</option>
+                    <option value="41">41</option>
+                    <option value="42">42</option>
+                    <option value="43">43</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="price">Harga:</label>
+                <select id="price" class="form-control">
+                    <option value="">Semua Harga</option>
+                    <option value="0-1000000">Rp 0 - 1.000.000</option>
+                    <option value="1000000-3000000">Rp 1-3 Juta</option>
+                    <option value="3000000-5000000">Rp 3-5 Juta</option>
+                    <option value="5000000-10000000">Rp 5-10 Juta</option>
+                </select>
+            </div>
+            <a href="#" class="btn btn-primary">Terapkan Filter</a>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="img/nike.jpg" alt="Nike Air Jordan 1" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Nike Air Jordan 1 Retro High</h3>
+                    <p class="product-price">Rp 3.500.000</p>
+                    <p class="product-description">Sneakers legendaris dengan desain klasik. Original 100% dengan box dan accessories lengkap.</p>
+                    <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="img/adidas.jpg" alt="Adidas Yeezy Boost" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Adidas Yeezy Boost 350 V2</h3>
+                    <p class="product-price">Rp 4.200.000</p>
+                    <p class="product-description">Yeezy dengan comfort maksimal. Warna zebra pattern yang iconic dan limited.</p>
+                    <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="img/nb.jpg" alt="New Balance 550" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">New Balance 550 White Green</h3>
+                    <p class="product-price">Rp 1.800.000</p>
+                    <p class="product-description">Vintage basketball sneakers yang kembali trending. Comfort dan style yang timeless.</p>
+                    <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="img/convers.webp" alt="Nike Dunk Low" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Converse Chuck Taylor All Star</h3>
+                    <p class="product-price">Rp 850.000</p>
+                    <p class="product-description">Sneakers casual yang never go out of style. Tersedia berbagai warna limited edition.</p>
+                    <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1600269452121-4f2416e55c28?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Nike Dunk Low" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Nike Dunk Low Retro</h3>
+                    <p class="product-price">Rp 2.100.000</p>
+                    <p class="product-description">Skateboarding classic yang menjadi streetwear essential. Warna pandas yang clean.</p>
+                    <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src="img/vans.jpg" alt="Vans Old Skool" class="product-image">
+                <div class="product-info">
+                    <h3 class="product-name">Vans Old Skool Black White</h3>
+                    <p class="product-price">Rp 650.000</p>
+                    <p class="product-description">Iconic skate shoes dengan sidestripe yang terkenal. Perfect untuk casual wear.</p>
+                    <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form Input Produk -->
+        <div class="form-container">
+            <h2 class="form-title">Jual Sneakers Anda</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="product-name">Nama Produk</label>
+                    <input type="text" id="product-name" class="form-control" placeholder="Contoh: Nike Air Jordan 1 Retro High" required>
+                </div>
+                <div class="form-group">
+                    <label for="product-brand">Brand</label>
+                    <select id="product-brand" class="form-control" required>
+                        <option value="">Pilih Brand</option>
+                        <option value="nike">Nike</option>
+                        <option value="adidas">Adidas</option>
+                        <option value="new-balance">New Balance</option>
+                        <option value="converse">Converse</option>
+                        <option value="vans">Vans</option>
+                        <option value="puma">Puma</option>
+                        <option value="reebok">Reebok</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="product-price">Harga (Rp)</label>
+                    <input type="number" id="product-price" class="form-control" placeholder="Masukkan harga" required>
+                </div>
+                <div class="form-group">
+                    <label for="product-size">Ukuran Tersedia</label>
+                    <div class="size-options">
+                        <label><input type="checkbox" name="size" value="39"> 39</label>
+                        <label><input type="checkbox" name="size" value="40"> 40</label>
+                        <label><input type="checkbox" name="size" value="41"> 41</label>
+                        <label><input type="checkbox" name="size" value="42"> 42</label>
+                        <label><input type="checkbox" name="size" value="43"> 43</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="product-condition">Kondisi</label>
+                    <select id="product-condition" class="form-control" required>
+                        <option value="">Pilih Kondisi</option>
+                        <option value="new">Baru (Deadstock)</option>
+                        <option value="like-new">Seperti Baru (9/10)</option>
+                        <option value="good">Baik (8/10)</option>
+                        <option value="fair">Cukup (7/10)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="product-description">Deskripsi Produk</label>
+                    <textarea id="product-description" class="form-control" placeholder="Jelaskan detail sneakers, kondisi, kelengkapan, dll." required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="product-image">Gambar Produk (Maks. 5 gambar)</label>
+                    <input type="file" id="product-image" class="form-control" accept="image/*" multiple>
+                </div>
+                <button type="submit" class="btn-submit">Publikasikan Produk</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>SneakPick</h3>
+                <p>Marketplace terpercaya untuk koleksi sneakers original dengan berbagai brand ternama dan limited edition.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Link Cepat</h3>
+                <a href="index.html">Beranda</a>
+                <a href="produk.html">Koleksi</a>
+                <a href="tentang.html">Tentang Kami</a>
+                <a href="kontak.html">Kontak</a>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak Kami</h3>
+                <p>Email: info@sneakpick.com</p>
+                <p>Telepon: (021) 1234-5678</p>
+                <p>Alamat: Jl. Sneakers No. 123, Jakarta</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 SneakPick. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
